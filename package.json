@@ -1,0 +1,17 @@
+{
+  "name": "blob",
+  "version": "1.0.0",
+  "description": "blob - a super lightweight discord bot",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "deploy": "node --env-file=.env src/deploy.js"
+  },
+  "engines": { "node": ">=20.6" },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "discord.js": "^14.16.0"
+  }
+}
